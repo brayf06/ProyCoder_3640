@@ -13,7 +13,7 @@
     &__texto{
         display: flex;
         justify-content: center;
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: $fuente_footer;
         font-size: 16px;
         letter-spacing: -2.6px;
         word-spacing: 2.2px;
@@ -23,12 +23,12 @@
         font-style: italic;
         font-variant: normal;
         text-transform: capitalize;
-        background-color: lightgray;
+        background-color: $color_background;
     } 
     &__texto_dir{
         display: flex;
         flex-direction: row;
-        font-family: "Arial", Gadget, sans-serif;
+        font-family: $div_formatotexto;
         font-size: 15px;
         letter-spacing: 0.4px;
         word-spacing: -2.8px;
@@ -39,7 +39,7 @@
         font-variant: normal;
     }
     &mapa{
-        border: #000000 1px solid;
+        border: $bordes;
     }
 }
 

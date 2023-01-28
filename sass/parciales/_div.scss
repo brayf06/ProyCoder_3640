@@ -1,7 +1,7 @@
 .div{
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-color: lightgrey;
+    background-color: $color_background;
     &__centrado{
         display: flex;
         justify-content: center;
@@ -25,14 +25,14 @@
         margin-bottom: 3.5rem;
     }
     &__img_curso{
-        width: 10rem;
-        height: 10rem;
+        width: $img_width;
+        height: $img_heigth;
     }
     &__txt_curso{
         display: flex;
         flex-direction: row;
         margin-top: 3rem;
-        font-family: "Arial", Gadget, sans-serif;
+        font-family: $div_formatotexto;
         font-size: 15px;
         letter-spacing: 0.4px;
         word-spacing: -2.8px;
@@ -43,7 +43,7 @@
         font-variant: normal;
     }
     &__video{
-        border: black 2px solid;
+        border:$bordes;
         margin-bottom: 3rem;
     }
     &ajuste__texto{
@@ -54,7 +54,7 @@
     }
     &contenedor_a_posicionar{
         display: flex;
-        border: #000000 1px solid;
+        border:$bordes;
         flex-basis: 100%;
         padding: 1rem 2rem;
         gap: 2rem;

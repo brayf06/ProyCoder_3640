@@ -1,26 +1,26 @@
 .header{
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: $heade_padding;
     justify-content: space-between;
     &__logo{
-        width: 10rem;
-        height: 10rem;
+        width: $img_width;
+        height: $img_heigth;
     }
     &__text{
         display:flex;
         margin-top: 4rem;
         margin-right: auto;
-        font-family: Verdana, Geneva, sans-serif;
-        font-size: 25px;
+        font-family: $header_tipodefuente_encabezado;
+        font-size: $header_size_texto_encabezado;
         letter-spacing: -2.6px;
         word-spacing: 2.2px;
-        color: #4F4F4F;
+        color: $header_colorfuente;
         font-weight: 700;
         text-decoration: none;
         font-style: italic;
         font-variant: normal;
         text-transform: capitalize;
-        background-color: lightgray;
+        background-color: $color_background;
     }
     &__navegacion{
         display: flex;
@@ -29,17 +29,17 @@
     &__encabezado{
         display:flex;
         justify-content: center;
-        font-family: Verdana, Geneva, sans-serif;
-        font-size: 25px;
+        font-family: $header_tipodefuente_encabezado;
+        font-size: $header_size_texto_encabezado;
         letter-spacing: -2.6px;
         word-spacing: 2.2px;
-        color: #4F4F4F;
+        color:$header_colorfuente;
         font-weight: 700;
         text-decoration: none;
         font-style: italic;
         font-variant: normal;
         text-transform: capitalize;
-        background-color: lightgray;
+        background-color: $color_background;
     }
     &__navegacion{
         display: flex;
@@ -51,12 +51,12 @@
         margin-right: auto;
         padding: 1rem;
         margin-top: 2.35rem;
-        font-size: 17px;
+        font-size: $header_size_texto_items;
         letter-spacing: -2px;
         word-spacing: 1.4px;
-        color: #4F4F4F;
+        color: $header_colorfuente;
         font-weight: 700;
-        text-decoration: underline solid rgb(68, 68, 68);
+        text-decoration: $header_items_color;
         font-style: normal;
         font-variant: normal;
         text-transform: uppercase;
