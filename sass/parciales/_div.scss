@@ -14,7 +14,11 @@
     &scale-up-hor-center {
         -webkit-animation: scale-up-hor-center 0.5s both;
                 animation: scale-up-hor-center 0.5s both;
-    } 
+    }
+    &puff-in-center{
+        -webkit-animation: puff-in-center 8s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+	        animation: puff-in-center 8s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+    }
     &__main{
         display: flex;
         margin-bottom: 3.5rem;
@@ -27,6 +31,11 @@
     &__img_curso{
         width: $img_width;
         height: $img_heigth;
+    }
+    &__img_cursos{
+        width: $img_cursos_width;
+        height: $img_cursos_heigth;
+        margin-bottom: 3.5rem;
     }
     &__txt_curso{
         display: flex;
