@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    &__logo{
+        width: 10rem;
+        height: 10rem;
+    }
+    &__text{
+        display:flex;
+        margin-top: 4rem;
+        margin-right: auto;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 25px;
+        letter-spacing: -2.6px;
+        word-spacing: 2.2px;
+        color: #4F4F4F;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: italic;
+        font-variant: normal;
+        text-transform: capitalize;
+        background-color: lightgray;
+    }
+    &__navegacion{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__encabezado{
+        display:flex;
+        justify-content: center;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 25px;
+        letter-spacing: -2.6px;
+        word-spacing: 2.2px;
+        color: #4F4F4F;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: italic;
+        font-variant: normal;
+        text-transform: capitalize;
+        background-color: lightgray;
+    }
+    &__navegacion{
+        display: flex;
+        justify-content: space-between;
+    }
+    &items__navegacion{
+        display:flex;
+        flex-direction: row;
+        margin-right: auto;
+        padding: 1rem;
+        margin-top: 2.35rem;
+        font-size: 17px;
+        letter-spacing: -2px;
+        word-spacing: 1.4px;
+        color: #4F4F4F;
+        font-weight: 700;
+        text-decoration: underline solid rgb(68, 68, 68);
+        font-style: normal;
+        font-variant: normal;
+        text-transform: uppercase;
+    }
+    &__active, .items__navegacion:hover{
+        background-color: #000000;
+        color: aliceblue;
+    }
+}
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Entrega</title>
+    <link rel="stylesheet" href="../css/compilado.css">
+</head>
+<body class="body">
+    <div class="div">
+        <header class="header">
+            <a href="./index.html" class="header__logo"><source><img src="../media/vecteezy_coding-logo-design-template___1_-removebg-preview.png" alt="CompanyLogo" class="header__logo"></a>
+            <h1 class="header__text">ProgSite</h1>
+            <nav>
+                <ul class="header__navegacion">
+                    <a href="../index.html" class="headeritems__navegacion">Inicio</a>
+                    <a href="../sitio/quienessomos.html" class="headeritems__navegacion">Quienes somos</a>
+                    <a href="../sitio/cursos.html" class="headeritems__navegacion">Cursos</a>
+                    <a href="./contacto.html" class="headeritems__navegacion header__active">Contacto</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <!-- Formulario contacto -->
+                <form action="" method="get" enctype="text/plain" class="div__centrado">
+                    <fieldset>
+                        <legend><h1 class="header__encabezado div__centrado">Formulario de contacto</h1></legend>
+                        <label for="NombreCliente">Ingrese su Nombre:</label>
+                        <div>
+                            <input type="text" name="NombreCliente" id="NombreCliente" required>
+                        </div>
+                        <label for="MailCliente">Ingrese su Mail:</label>
+                            <div>
+                                <input type="text" name="MailCliente" id="MailCliente" required>
+                            </div>
+                        <label for="TelefonoCliente">Ingrese su Telefono:</label>
+                            <div>
+                                <input type="number" name="TelefonoCliente" id="TelefonoCliente">
+                            </div> 
+                        <label for="PaisCliente">Ingrese su Pais:</label>
+                            <div>
+                                <input type="text" name="PaisCliente" id="PaisCliente" required>
+                            </div>
+                        <span>Motivo de su consulta:</span>
+                        <div>
+                            <label for="Consulta">Consulta general</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="General" >
+                        </div>
+                        <div>
+                            <label for="Consulta">Curso C#</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="ConsultaCsharp" >
+                        </div>
+                        <div>
+                            <label for="Consulta">Curos Java</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="ConsultaJava" >
+                        </div>
+                        <div>
+                            <label for="Consulta">Consulta Python</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="ConsultaPython" >
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div>
+                <h1 class="footer__texto">¿Donde nos encontramos?</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1294461.0666927744!2d-55.92539609783078!3d-34.737270747802036!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2suy!4v1673481796665!5m2!1ses-419!2suy" width="400" height="300" style="border:0;" class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <h1 class="footer__texto">Sobre nosotros</h1>
+                <p class="footer__texto_dir">Numero de telefono:(559) 673-2443</p>
+                <p class="footer__texto_dir">Direccion: 1008 E Kennedy St</p>
+                <p class="footer__texto_dir">Madera, California(CA), 93638</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

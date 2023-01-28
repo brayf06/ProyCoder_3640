@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Entrega</title>
+    <link rel="stylesheet" href="./css/compilado.css">
+</head>
+<body class="body">
+    <div class="div">
+        <!-- Header -->
+        <header class="header">
+            <a href="./index.html" class="header__logo"><source><img src="./media/vecteezy_coding-logo-design-template___1_-removebg-preview.png" alt="CompanyLogo" class="header__logo"></a>
+            <h1 class="header__text">ProgSite</h1>
+            <nav>
+                <ul class="header__navegacion">
+                    <a href="index.html" class="headeritems__navegacion header__active">Inicio</a>
+                    <a href="./sitio/quienessomos.html" class="headeritems__navegacion">Quienes somos</a>
+                    <a href="./sitio/cursos.html" class="headeritems__navegacion">Cursos</a>
+                    <a href="./sitio/contacto.html" class="headeritems__navegacion">Contacto</a>
+                </ul>
+            </nav>
+        </header>
+        <!-- Imagen principal -->
+        <main>
+            <div class="div__centrado">
+                <img src="./media/26d2798f-ef08-4c43-8e99-3e6e6bbce390.png" alt="CursosProgramacion_IMG" class="div__img divscale-up-hor-center">
+            </div>
+            <section data-aos="flip-left">
+                <div>
+                    <h1 class="header__encabezado"> Nuestros principales cursos</h1>
+                    <div class="divcontenedor_a_posicionar">
+                        <img src="./media/csharp_logo-removebg-preview.png" alt="CSharp_logo" class="div__img_curso"><p class="div__txt_curso">Al finalizar el curso el participante será capaz de:
+                        - Reconocer los conceptos básicos de programación en base a C# e identificar sus funciones
+                        - Desarrollar un sistema basado en requerimientos básicos de la plantaforma .NET </p>
+                        <img src="./media/pythonlogo.png" alt="Python_logo" class="div__img_curso"><p class="div__txt_curso ">El objetivo principal de este curso consiste en introducir los fundamentos 
+                        básicos del lenguaje de programación Python, así como dar una visión general de algunas características más avanzadas.</p>
+                        <img src="./media/javalogo.png" alt="Java_logo" class="div__img_curso"><p class="div__txt_curso ">Los objetivos del curso JAVA Iniciación, son: Conocer los fundamentos de la Programación Orientada a Objetos a través del Lenguaje Java. 
+                            Manejar los elementos principales de Java: clases, constructores, etc. 
+                            Utilizar la herencia para la creación de aplicaciones Java. Nociones de programación estructurada.</p></div>
+                </div>
+            </section>
+            <form action="" method="get" enctype="text/plain" class="div__centrado">
+                <fieldset>
+                    <legend><h1 class="header__encabezado">¿Desea mas información?</h1></legend>
+                    <label for="NombreCliente">Ingrese su Nombre:</label>
+                    <div>
+                        <input type="text" name="NombreCliente" id="NombreCliente" required>
+                    </div>
+                    <label for="MailCliente">Ingrese su Mail:</label>
+                        <div>
+                            <input type="text" name="MailCliente" id="MailCliente" required>
+                        </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+            <!-- Solicitud de informacion -->
+        </main>
+        <footer class="footer">
+            <div>
+                <h1 class="footer__texto">¿Donde nos encontramos?</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1294461.0666927744!2d-55.92539609783078!3d-34.737270747802036!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2suy!4v1673481796665!5m2!1ses-419!2suy" width="400" height="300" style="border:0;" class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <h1 class="footer__texto">Sobre nosotros</h1>
+                <p class="footer__texto_dir">Numero de telefono:(559) 673-2443</p>
+                <p class="footer__texto_dir">Direccion: 1008 E Kennedy St</p>
+                <p class="footer__texto_dir">Madera, California(CA), 93638</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

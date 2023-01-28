@@ -1,0 +1,258 @@
+.body {
+  background-color: lightgray; }
+
+.div {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: lightgrey; }
+  .div__centrado {
+    display: flex;
+    justify-content: center; }
+  .div__img {
+    margin-bottom: 3.5rem;
+    width: 90rem;
+    height: 53rem; }
+  .divscale-up-hor-center {
+    -webkit-animation: scale-up-hor-center 0.5s both;
+    animation: scale-up-hor-center 0.5s both; }
+  .div__main {
+    display: flex;
+    margin-bottom: 3.5rem; }
+  .div__mainderecha {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 3.5rem; }
+  .div__img_curso {
+    width: 10rem;
+    height: 10rem; }
+  .div__txt_curso {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    word-spacing: -2.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal; }
+  .div__video {
+    border: black 2px solid;
+    margin-bottom: 3rem; }
+  .divajuste__texto {
+    height: 7rem;
+    width: 35rem;
+    margin-bottom: 5rem;
+    align-items: center; }
+  .divcontenedor_a_posicionar {
+    display: flex;
+    border: #000000 1px solid;
+    flex-basis: 100%;
+    padding: 1rem 2rem;
+    gap: 2rem; }
+
+.header {
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: space-between; }
+  .header__logo {
+    width: 10rem;
+    height: 10rem; }
+  .header__text {
+    display: flex;
+    margin-top: 4rem;
+    margin-right: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: -2.6px;
+    word-spacing: 2.2px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    background-color: lightgray; }
+  .header__navegacion {
+    display: flex;
+    justify-content: space-between; }
+  .header__encabezado {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: -2.6px;
+    word-spacing: 2.2px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    background-color: lightgray; }
+  .header__navegacion {
+    display: flex;
+    justify-content: space-between; }
+  .headeritems__navegacion {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    padding: 1rem;
+    margin-top: 2.35rem;
+    font-size: 17px;
+    letter-spacing: -2px;
+    word-spacing: 1.4px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: underline solid #444444;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase; }
+  .header__active, .header .items__navegacion:hover {
+    background-color: #000000;
+    color: aliceblue; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-left: 2rem; }
+  .footerfooter_right {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    align-items: end; }
+  .footer__texto {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: -2.6px;
+    word-spacing: 2.2px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    background-color: lightgray; }
+  .footer__texto_dir {
+    display: flex;
+    flex-direction: row;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    word-spacing: -2.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal; }
+  .footermapa {
+    border: #000000 1px solid; }
+
+/* Media query */
+@media screen and (max-width: 425px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .header__navegacion {
+    display: flex;
+    flex-direction: row; }
+  .div__img {
+    width: 13rem;
+    height: 8rem; }
+  .div__img_curso {
+    width: 8rem;
+    height: 8rem; }
+  .div__txt_curso {
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    margin-top: 2rem; }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    margin: auto; }
+  .header__text {
+    justify-content: center;
+    margin-top: 0;
+    margin-right: 0; }
+  .contenedor_a_posicionar {
+    padding: 0;
+    gap: 0; }
+  .div__video {
+    width: 425px;
+    height: 280px;
+    margin-bottom: 6rem; }
+  .ajuste__texto {
+    width: 19rem;
+    margin-bottom: 6rem; }
+  .mapa {
+    width: 189px;
+    height: 75px; }
+  .texto_dir_footer {
+    font-size: 12px; }
+  .texto__footer {
+    justify-content: left; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .header__navegacion {
+    display: flex;
+    flex-direction: row; }
+  .div__img {
+    width: 20rem;
+    height: 10.5rem; }
+  .div__img_curso {
+    width: 5rem;
+    height: 5rem; }
+  .div__txt_curso {
+    margin-top: 0rem;
+    font-size: 15px;
+    letter-spacing: 0.1px; }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    margin: auto; }
+  .header__text {
+    justify-content: center;
+    margin-top: 0;
+    margin-right: 0; }
+  .mapa {
+    width: 300px;
+    height: 120px; }
+  .texto_dir_footer {
+    font-size: 12px; } }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-1-11 20:27:23
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation scale-up-hor-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4); }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4); }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }

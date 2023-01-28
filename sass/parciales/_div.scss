@@ -1,0 +1,66 @@
+.div{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: lightgrey;
+    &__centrado{
+        display: flex;
+        justify-content: center;
+    }
+    &__img{
+        margin-bottom: 3.5rem;
+        width: 90rem;
+        height: 53rem;
+    }
+    &scale-up-hor-center {
+        -webkit-animation: scale-up-hor-center 0.5s both;
+                animation: scale-up-hor-center 0.5s both;
+    } 
+    &__main{
+        display: flex;
+        margin-bottom: 3.5rem;
+    }
+    &__mainderecha{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 3.5rem;
+    }
+    &__img_curso{
+        width: 10rem;
+        height: 10rem;
+    }
+    &__txt_curso{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+        font-family: "Arial", Gadget, sans-serif;
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        word-spacing: -2.8px;
+        color: #000000;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: italic;
+        font-variant: normal;
+    }
+    &__video{
+        border: black 2px solid;
+        margin-bottom: 3rem;
+    }
+    &ajuste__texto{
+        height: 7rem;
+        width: 35rem;
+        margin-bottom: 5rem;
+        align-items: center;
+    }
+    &contenedor_a_posicionar{
+        display: flex;
+        border: #000000 1px solid;
+        flex-basis: 100%;
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+  }
+
+
+
+
