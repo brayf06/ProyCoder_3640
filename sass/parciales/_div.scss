@@ -31,11 +31,13 @@
     &__img_curso{
         width: $img_width;
         height: $img_heigth;
+        overflow: hidden;
     }
     &__img_cursos{
         width: $img_cursos_width;
         height: $img_cursos_heigth;
         margin-bottom: 3.5rem;
+        overflow: hidden;
     }
     &__txt_curso{
         display: flex;
