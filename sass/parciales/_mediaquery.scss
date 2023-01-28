@@ -56,6 +56,25 @@
     .texto__footer{
         justify-content: left;
     }
+    .img_empresas{
+        width: 6rem;
+        height: 6rem;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .header__encabezado{
+        font-size: 20px;
+    }
+    .div__principal{
+        flex-basis: 100%;
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+    .img_cursos{
+        width: 5rem;
+        height: 5rem;
+    }
 }
 @media screen and (max-width: 768px){
     .header{
@@ -96,6 +115,14 @@
     }
     .texto_dir_footer{
         font-size: 12px;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .img_empresas{
+        margin-bottom: 0;
+        width: 6rem;
+        height: 6rem;
     }
 }
 /* ----------------------------------------------

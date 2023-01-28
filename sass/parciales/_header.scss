@@ -6,6 +6,15 @@
         width: $img_width;
         height: $img_heigth;
     }
+    &_contacto {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }   
+    &_bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
     &__text{
         display:flex;
         margin-top: 4rem;
@@ -51,6 +60,7 @@
         margin-right: auto;
         padding: 1rem;
         margin-top: 2.35rem;
+        font-family: $header_tipodefuente_encabezado;
         font-size: $header_size_texto_items;
         letter-spacing: -2px;
         word-spacing: 1.4px;
