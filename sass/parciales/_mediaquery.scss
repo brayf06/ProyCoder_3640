@@ -1,96 +1,5 @@
 
 /* Media query */
-@media screen and (max-width: 425px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .header__navegacion{
-        display: flex;
-        flex-direction: row;
-    }
-    .div__img{
-        width: 13rem;
-        height: 8rem;
-    }
-    .div__img_curso{
-        width: 5rem;
-        height: 5rem;
-        margin-left: 13rem;
-    }
-    .div__img_cursos{
-        width: 9rem;
-        height: 4rem;
-        margin-bottom: 3.5rem;
-        overflow: hidden;
-    }
-    .div__img_otroscursos{
-        width: 6rem;
-        height: 3rem;
-        margin-bottom: 3.5rem;
-        overflow: hidden;
-    }
-    .div__txt_curso{
-        font-size: 10px;
-        letter-spacing: 0.4px;
-        margin-top: 2rem;
-    }
-    .header__logo{
-        display: flex;
-        justify-content: center;
-        margin:auto;
-    }
-    .header__text{
-        justify-content: center;
-        margin-top: 0;
-        margin-right: 0;
-    }
-    .divcontenedor_a_posicionar{
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        gap:0;
-    }
-    .div__video{
-        width: 425px;
-        height: 280px;
-        margin-bottom: 6rem;
-    }
-    .ajuste__texto{
-        width: 19rem;
-        margin-bottom: 6rem;
-    }
-    .mapa{
-        width: 189px;
-        height: 75px;
-    }
-    .texto_dir_footer{
-        font-size: 12px;
-    }
-    .texto__footer{
-        justify-content: left;
-    }
-    .img_empresas{
-        width: 6rem;
-        height: 6rem;
-    }
-    .footer{
-        margin-top: 2rem;
-    }
-    .header__encabezado{
-        font-size: 20px;
-    }
-    .div__principal{
-        flex-basis: 100%;
-        padding: 1rem 2rem;
-        gap: 2rem;
-    }
-    .img_cursos{
-        width: 5rem;
-        height: 5rem;
-    }
-}
 @media screen and (max-width: 768px){
     .header{
         display: flex;
@@ -140,7 +49,7 @@
         width: 300px;
         height: 120px;
     }
-    .texto_dir_footer{
+    .footer__texto_dir{
         font-size: 12px;
     }
     .footer{
@@ -150,6 +59,103 @@
         margin-bottom: 0;
         width: 6rem;
         height: 6rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__navegacion{
+        display: flex;
+        flex-direction: row;
+    }
+    .div__img{
+        width: 23rem;
+        height: 15rem;
+    }
+    .div__img_curso{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 13rem;
+    }
+    .div__img_cursos{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 10rem;
+        overflow: hidden;
+    }
+    .div__img_otroscursos{
+        width: 6rem;
+        height: 3rem;
+        margin-bottom: 3.5rem;
+        overflow: hidden;
+    }
+    .div__txt_curso{
+        font-size: 18px;
+        letter-spacing: 0.4px;
+    }
+    .header__logo{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+    }
+    .header__text{
+        justify-content: center;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .divcontenedor_a_posicionar{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap:0;
+    }
+    .div__video{
+        width: 425px;
+        height: 280px;
+        margin-bottom: 6rem;
+    }
+    .divajuste__texto{
+        height: 16rem;
+        width: 19rem;
+        margin-bottom: 6rem;
+    }
+    .mapa{
+        width: 189px;
+        height: 75px;
+    }
+    .footer__texto_dir{
+        font-size: 12px;
+    }
+    .footer__texto{
+        justify-content: left;
+    }
+    .img_empresas{
+        width: 6rem;
+        height: 6rem;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+    .header__encabezado{
+        font-size: 20px;
+    }
+    .div__principal{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+    .img_cursos{
+        width: 5rem;
+        height: 5rem;
+    }
+    .div__main{
+        display: flex;
+        flex-direction: column;
     }
 }
 /* ----------------------------------------------
