@@ -29,13 +29,19 @@
         margin-bottom: 3.5rem;
     }
     &__img_curso{
-        width: $img_width;
-        height: $img_heigth;
+        width: $imgindex_width;
+        height: $imgindex_heigth;
         overflow: hidden;
     }
     &__img_cursos{
         width: $img_cursos_width;
         height: $img_cursos_heigth;
+        margin-bottom: 3.5rem;
+        overflow: hidden;
+    }
+    &__img_otroscursos{
+        width: $img_otroscursos_width;
+        height: $img_otroscursos_heigth;
         margin-bottom: 3.5rem;
         overflow: hidden;
     }

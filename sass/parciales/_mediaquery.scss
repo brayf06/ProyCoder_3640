@@ -15,8 +15,21 @@
         height: 8rem;
     }
     .div__img_curso{
-        width: 8rem;
-        height: 8rem;
+        width: 5rem;
+        height: 5rem;
+        margin-left: 13rem;
+    }
+    .div__img_cursos{
+        width: 9rem;
+        height: 4rem;
+        margin-bottom: 3.5rem;
+        overflow: hidden;
+    }
+    .div__img_otroscursos{
+        width: 6rem;
+        height: 3rem;
+        margin-bottom: 3.5rem;
+        overflow: hidden;
     }
     .div__txt_curso{
         font-size: 10px;
@@ -33,7 +46,9 @@
         margin-top: 0;
         margin-right: 0;
     }
-    .contenedor_a_posicionar{
+    .divcontenedor_a_posicionar{
+        display: flex;
+        flex-direction: column;
         padding: 0;
         gap:0;
     }
@@ -91,8 +106,20 @@
         height: 10.5rem;
     }
     .div__img_curso{
-        width: 5rem;
+        width: 15rem;
         height: 5rem;
+    }
+    .div__img_cursos{
+        width: 9rem;
+        height: 4rem;
+        margin-bottom: 3.5rem;
+        overflow: hidden;
+    }
+    .div__img_otroscursos{
+        width: 6rem;
+        height: 3rem;
+        margin-bottom: 3.5rem;
+        overflow: hidden;
     }
     .div__txt_curso{
         margin-top: 0rem;
