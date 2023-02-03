@@ -12,6 +12,14 @@
         width: 80%;
         height: 53rem;
     }
+    &__img__empresas{
+        display: flex;
+        flex-direction: row;
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+        width: 10%;
+        height: 10%;
+    }
     &scale-up-hor-center {
         -webkit-animation: scale-up-hor-center 0.5s both;
                 animation: scale-up-hor-center 0.5s both;
@@ -19,6 +27,10 @@
     &puff-in-center{
         -webkit-animation: puff-in-center 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
 	        animation: puff-in-center 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+    }
+    &__scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
     &__main{
         display: flex;
