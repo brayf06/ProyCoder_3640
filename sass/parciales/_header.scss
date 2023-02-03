@@ -1,7 +1,10 @@
 .header{
     display: flex;
-    padding: $heade_padding;
+    padding: $header_padding;
     justify-content: space-between;
+    &__nav{
+        justify-content: space-between;
+    }
     &__logo{
         width: $img_logo_width;
         height: $img_logo_heigth;
@@ -34,6 +37,7 @@
     &__navegacion{
         display: flex;
         justify-content: space-between;
+        width: 95%;
     }
     &__encabezado{
         display:flex;
@@ -49,10 +53,6 @@
         font-variant: normal;
         text-transform: capitalize;
         background-color: $color_background;
-    }
-    &__navegacion{
-        display: flex;
-        justify-content: space-between;
     }
     &items__navegacion{
         display:flex;
