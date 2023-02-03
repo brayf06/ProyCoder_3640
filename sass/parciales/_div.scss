@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-color: $color_background;
+    overflow: hidden;
     &__centrado{
         display: flex;
         justify-content: center;
@@ -16,11 +17,13 @@
                 animation: scale-up-hor-center 0.5s both;
     }
     &puff-in-center{
-        -webkit-animation: puff-in-center 8s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
-	        animation: puff-in-center 8s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+        -webkit-animation: puff-in-center 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+	        animation: puff-in-center 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
     }
     &__main{
         display: flex;
+        flex-direction: row;
+        justify-content: center;
         margin-bottom: 3.5rem;
     }
     &__mainderecha{
@@ -48,7 +51,6 @@
     &__txt_curso{
         display: flex;
         flex-direction: row;
-        margin-top: 3rem;
         font-family: $div_formatotexto;
         font-size: 15px;
         letter-spacing: 0.4px;
@@ -58,6 +60,20 @@
         text-decoration: none;
         font-style: italic;
         font-variant: normal;
+    }
+    &__txt_cursos{
+        display: flex;
+        flex-direction: row;
+        font-family: $div_formatotexto;
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        word-spacing: -2.8px;
+        color: #000000;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: italic;
+        font-variant: normal;
+        width: 45%;
     }
     &__video{
         border:$bordes;
@@ -79,6 +95,11 @@
     &__centrado__cursos{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+    }
+    &__principal{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
   }

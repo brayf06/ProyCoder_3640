@@ -11,8 +11,8 @@
         flex-direction: row;
     }
     .div__img{
-        width: 20rem;
-        height: 10.5rem;
+        width: 100%;
+        height: auto;
     }
     .div__img_curso{
         width: 5rem;
@@ -20,7 +20,7 @@
         margin-left: 45%;
     }
     .div__img_cursos{
-        width: 9rem;
+        width: 5rem;
         height: 4rem;
         margin-bottom: 3.5rem;
         overflow: hidden;
@@ -114,6 +114,9 @@
     .div__txt_curso{
         font-size: 18px;
         letter-spacing: 0.4px;
+    }
+    .div__txt_cursos{
+        width: 100%;
     }
     .header__logo{
         display: flex;
